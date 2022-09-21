@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 400px;
+    margin: 50px auto;
+    position: relative;
+}
+
+.green {
+    width: 100%;
+    height: 250px;
+    background: green;
+}
+
+.red {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+
+.lamPost {
+    background-color: rgb(124, 67, 1);
+    width: 10px;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
